@@ -1,4 +1,4 @@
-# doctorplus
+# Flutter-Doctor-Appointment-App
 
 A new Flutter project.
 
