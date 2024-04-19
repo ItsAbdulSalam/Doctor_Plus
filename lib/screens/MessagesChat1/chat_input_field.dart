@@ -26,14 +26,6 @@ class ChatInputField1 extends StatelessWidget {
       child: SafeArea(
         child: Row(
           children: [
-            Container(
-                height: 50,
-                width: 50,
-                decoration: BoxDecoration(
-                    color: Colors.blue,
-                    borderRadius: BorderRadius.circular(40)),
-                child: const Icon(Icons.mic, color: Colors.white)),
-            const SizedBox(width: kDefaultPadding),
             Expanded(
               child: Container(
                 padding: const EdgeInsets.symmetric(
@@ -63,6 +55,16 @@ class ChatInputField1 extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(
+              width: 10,
+            ),
+            Container(
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(40),
+                    color: Color(0xff2B7FFD)),
+                child: const Icon(Icons.mic, color: Colors.white)),
           ],
         ),
       ),

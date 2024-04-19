@@ -74,7 +74,7 @@ class MessagesScreen extends StatelessWidget {
                       ),
                       Icon(
                         Icons.search,
-                        color: Color(0xFF113953),
+                        color: Color(0xff2B7FFD),
                       ),
                     ],
                   ),
@@ -283,7 +283,7 @@ class MessagesScreen extends StatelessWidget {
                 height: 595,
                 child: ListView.builder(
                   physics: NeverScrollableScrollPhysics(),
-                  itemCount: 6,
+                  itemCount: 4,
                   shrinkWrap: true,
                   itemBuilder: (context, index) {
                     return ListTile(
@@ -301,14 +301,14 @@ class MessagesScreen extends StatelessWidget {
                         ),
                       ),
                       title: Text(
-                        "Doctor Name",
+                        "Dr. Maria Elena",
                         style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                        ),
+                            fontSize: 15,
+                            fontWeight: FontWeight.bold,
+                            color: Color(0xff2B7FFD)),
                       ),
                       subtitle: Text(
-                        "Hello, Docotr, are you there? asd as d asd a sd asd as d s",
+                        "Hello , How can i help you ?",
                         maxLines: 1,
                         overflow: TextOverflow.ellipsis,
                         style: TextStyle(

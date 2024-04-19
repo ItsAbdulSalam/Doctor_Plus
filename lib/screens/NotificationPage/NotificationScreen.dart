@@ -36,8 +36,8 @@ class _NotificationScreenState extends State<NotificationScreen> {
       backgroundColor: Color(0xffF2F7FD),
       appBar: AppBar(
         leading: IconButton(onPressed: (){}, icon: Icon(Icons.arrow_back)),
-        title: Center(child: const Text('Notification Screen')),
-        actions: [IconButton(onPressed: (){}, icon: Icon(Icons.notifications))],
+        title: Center(child: const Text('Notification')),
+        actions: [IconButton(onPressed: (){}, icon: Icon(Icons.notifications, size: 40, color: Color(0xffC0C2C5),))],
       ),
       body: (notificationList.isEmpty)
           ?const  SizedBox(
@@ -105,7 +105,7 @@ class _NotificationScreenState extends State<NotificationScreen> {
                             alignment: Alignment.center,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(30.0),
-                              color: Colors.indigo[400],
+                              color: const Color(0xffC0C2C5),
                             ),
                             child: Icon(
                               (item['type'] == 'notify')

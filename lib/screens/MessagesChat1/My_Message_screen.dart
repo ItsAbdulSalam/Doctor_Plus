@@ -37,7 +37,7 @@ class MyChatUIState extends State<MyChatUI1> {
               backgroundImage: AssetImage("assets/images/img_ellipse_11.png"),
             ),
             title: const Text(
-              'Usama XD',
+              'Dr.Maria Elena',
               style: TextStyle(color: Colors.blue, fontWeight: FontWeight.bold),
             ),
             subtitle: const Text(

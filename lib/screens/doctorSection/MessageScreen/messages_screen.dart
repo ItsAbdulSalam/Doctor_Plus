@@ -35,10 +35,10 @@ class MessagesScreen2 extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 20),
                     child: Text(
-                      "Messages",
+                      " My Messages",
                       style: TextStyle(
-                        fontSize: 28,
-                        fontWeight: FontWeight.bold,
+                        fontSize: 24,
+                       
                       ),
                     ),
                   ),
@@ -112,7 +112,7 @@ class MessagesScreen2 extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => ChatScreen(),
+                            builder: (context) => ChatScreen2(),
                           ));
                     },
                     leading: CircleAvatar(
@@ -124,7 +124,8 @@ class MessagesScreen2 extends StatelessWidget {
                     title: Text(
                       "Patient name",
                       style: TextStyle(
-                        fontSize: 18,
+                        color: Color(0xff2B7FFD),
+                        fontSize: 15,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
